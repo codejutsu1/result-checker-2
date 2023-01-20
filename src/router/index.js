@@ -5,6 +5,10 @@ import Result from '../views/Result.vue'
 
 const routes = [
     {
+        path: '/*',
+        component: 404
+    },
+    {
         path: '/',
         name: 'Home',
         component: Home
